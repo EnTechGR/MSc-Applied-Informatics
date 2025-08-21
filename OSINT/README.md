@@ -6,8 +6,8 @@ This project is a data analysis and visualization system for Automatic Identific
 
 The system consists of two main parts: a data retrieval script and a data analysis notebook.
 
--   **Data Retrieval (`AIS_Data_Retrieve.py`)**: This Python script connects to an open-source AIS live stream, filters for `ShipStaticData` messages, and appends the relevant information (ship name, MMSI, location, etc.) to a CSV file.
--   **Data Analysis (`data_analysis.ipynb`)**: This Jupyter Notebook processes the raw data from the CSV file to perform various analyses and visualizations. It includes a description of the data, library imports, and the code for plotting and understanding the movement of specific ships.
+- **Data Retrieval (`AIS_Data_Retrieve.py`)**: This Python script connects to an open-source AIS live stream, filters for `ShipStaticData` messages, and appends the relevant information (ship name, MMSI, location, etc.) to a CSV file.
+- **Data Analysis (`data_analysis.ipynb`)**: This Jupyter Notebook processes the raw data from the CSV file to perform various analyses and visualizations. It includes a description of the data, library imports, and the code for plotting and understanding the movement of specific ships.
 
 ## Project Structure
 
@@ -19,32 +19,59 @@ The system consists of two main parts: a data retrieval script and a data analys
 
 ### Prerequisites
 
-* Python 3.x
+* Python 3.12 (or any Python 3.x)
 * A stable internet connection for the live AIS data stream.
+* Recommended: [virtualenv](https://docs.python.org/3/library/venv.html) to isolate project dependencies.
 
 ### Installation
 
-1.  Clone this repository to your local machine:
+1. Clone this repository to your local machine:
 
     ```bash
     git clone [your-repository-url]
     ```
 
-2.  Navigate to the project directory:
+2. Navigate to the project directory:
 
     ```bash
     cd [your-project-directory]
+    ```
+
+3. Create a virtual environment and activate it:
+
+    ```bash
+    python3 -m venv .venv
+    source .venv/bin/activate   # Linux/macOS
+    .\.venv\Scripts\activate    # Windows
+    ```
+
+4. Install the required Python packages:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+   **If `requirements.txt` is not present, install the dependencies manually:**
+
+    ```bash
+    pip install pandas numpy matplotlib matplotlib-inline seaborn plotly geopandas shapely movingpandas hvplot holoviews geoviews bokeh
     ```
 
 ### Usage
 
 #### 1. Data Retrieval
 
-First, you need to retrieve the data from the AIS stream.
+Before running the script, insert your AIS stream API key in the `AIS_Data_Retrieve.py` file.
 
-* **Note**: Before running the script, you must obtain an API key from the AIS stream provider and insert it into the `AIS_Data_Retrieve.py` file.
-
-Run the data retrieval script from your terminal:
+Run the data retrieval script:
 
 ```bash
 python3 AIS_Data_Retrieve.py
+```
+
+#### 2. Data Analysis
+Open the Jupyter Notebook for analysis:
+
+```bash
+jupyter notebook data_analysis.ipynb
+```

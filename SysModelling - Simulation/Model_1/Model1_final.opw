@@ -1,0 +1,39 @@
+[RESOURCES]
+Small_Ferry_Boat
+Employee_Tolls
+Epass_Tolls
+Large_Ferry_Boat
+[VARIABLES]
+Small_Ferry.NumberIn
+Small_Ferry.NumberOut
+Large_Ferry.NumberIn
+Small_Ferry.VATime
+Large_Ferry.NumberOut
+Employee.NumberIn
+Total_Cars_Ferry
+Total_Trucks_Bridge
+Epass_or_employee.NumberOut False
+Car_or_Truck_Bridge.NumberOut True
+Epass.WaitTime
+Employee.NumberOut
+Large_Ferry.VATime
+Large_Ferry.WaitTime
+Small_or_Large_Ferry.NumberOut False
+Employee.VATime
+Car_or_Truck_Bridge.NumberOut False
+Small_or_Large_Ferry.NumberOut True
+Employee.WaitTime
+Total_Cars_Bridge
+Select_Bridge_or_Ferry.NumberOut False
+Exodos_to_Hgoumenitsa.NumberOut
+Epass.NumberIn
+Select_Bridge_or_Ferry.NumberOut True
+Total_Trucks_Ferry
+Epass_or_employee.NumberOut True
+Eisodos_Trucks_Arrival.NumberOut
+Epass.VATime
+Small_Ferry.WaitTime
+Epass.NumberOut
+Car_or_Truck_Ferry.NumberOut False
+Car_or_Truck_Ferry.NumberOut True
+Eisodos_Cars_Arrival.NumberOut

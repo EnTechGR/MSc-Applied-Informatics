@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Get Data Page</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <h3>This page loads the products...</h3>
+        <button id="getDataButton" onclick="getData()">Append Data</button>
+        <div id="productTable"></div>
+        <div id="selectID"></div>
+
+        <section class="modal hidden"></section>
+        <div class="overlay hidden"></div>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="myInfo"></p>
+            </div>
+        </div>
+          
+    </body>
+</html>

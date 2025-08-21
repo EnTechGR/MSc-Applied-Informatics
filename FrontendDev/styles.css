@@ -1,0 +1,136 @@
+#getDataButton {
+    background-color: #0eaa88;  
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    color: #f5fafa;
+    font-weight: 800;
+}
+
+table {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%; 
+
+}
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #0eaa88;
+    color: white;
+}
+td {  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-bottom: 2px solid #000000;  
+    padding: 8px;  
+    text-align: center;
+    font-weight: 500;  
+}
+tr:hover,tr:nth-child(odd):hover {background-color: rgb(168, 189, 216);}
+tr:nth-child(odd) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:  #c4c7c7;
+    color: black;
+}
+
+#prod_id {
+    background-color: #505353;
+    color: white;
+    
+    width: 6rem;
+    border: #b2eeac 2px solid;
+    text-align: center;
+    font-weight: 800;
+}
+select {
+    min-width: 250px;
+    border-radius: 100px;
+    font-family: Arial, serif;
+    font-size: 1.0rem;
+    cursor: pointer;
+}
+option{
+    background-color: #f8fcfb;
+    color: black;
+    font-weight: 800;
+    border-radius: 150px;
+  }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
+  }
+  
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    border-radius: 15px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#postDataBox {
+    background-color: #D6EEEE;
+    width: 300px;
+    border: 15px solid #0eaa88;
+    padding: 50px;
+    margin: auto;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1 {
+    text-align: center;
+}
+input {
+    border-radius: 8px;
+}
+input:not(:placeholder-shown) {
+    border-width: thick;
+    border-color: hsl(0, 76%, 50%);
+  }
+input:valid {
+    border-color: hsl(120, 76%, 50%);
+  }
+
+#postButton {
+    background-color: #0eaa88;  
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 750;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

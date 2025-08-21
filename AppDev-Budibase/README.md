@@ -24,7 +24,7 @@ The repository contains the following key files:
 
 * **`requirements.txt`**: A list of all necessary Python libraries for the project.
 
-* **`ap23011_report.pdf`**: The official project report submitted for the course, containing a detailed walkthrough of the application design and implementation. You can view the report by clicking [**here**](BudiReport.pdf).
+* **`ap23011_report.pdf`**: The official project report submitted for the course, containing a detailed walkthrough of the application design and implementation. You can view the report by clicking [**here**](./workflow/BudiReport.pdf).
 
 ## Getting Started
 
@@ -33,5 +33,6 @@ The repository contains the following key files:
 You will need Python 3 installed on your system. All other required libraries are listed in `requirements.txt`.
 
 [< Back to Portfolio Homepage](../README.md)
+
 
 

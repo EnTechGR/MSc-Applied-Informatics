@@ -24,7 +24,7 @@ The repository contains the following key files:
 
 * **`requirements.txt`**: A list of all necessary Python libraries for the project.
 
-* **`ap23011_report.pdf`**: The official project report submitted for the course, containing a detailed walkthrough of the application design and implementation. You can view the report by clicking [**here**](https://drive.google.com/file/d/14veQ5CDIjMyFM8YzJlf52GPhvQVYjTWV/view?usp=drive_link).
+* **`ap23011_report.pdf`**: The official project report submitted for the course, containing a detailed walkthrough of the application design and implementation. You can view the report by clicking [**here**](https://github.com/EnTechGR/MSc-Applied-Informatics/blob/main/AppDev-Budibase/workflow/ap23011_report.pdf).
 
 ## Getting Started
 
@@ -32,6 +32,5 @@ The repository contains the following key files:
 
 You will need Python 3 installed on your system. All other required libraries are listed in `requirements.txt`.
 
-### Installation
+[< Back to Portfolio Homepage](../README.md)
 
-1. Clone this repository to your local machine:

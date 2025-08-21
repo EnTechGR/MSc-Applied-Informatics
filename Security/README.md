@@ -5,7 +5,7 @@ This repository contains the final deliverables for the "Security Project," a co
 ## Project Files
 
 * **`ap23011_Security_Report.pdf`**: This PDF contains the comprehensive project report. It outlines the methodology, presents the results, and provides detailed documentation of the findings. You can view the full report by clicking **[here](Security_Report.pdf)**.
-* **`ap23011_security.ipynb`**: This Jupyter Notebook contains all the Python code used to conduct the experiments for this project. The notebook is fully reproducible and includes code for encrypting, decrypting, signing, and verifying data. You can view the notebook directly on GitHub by clicking **[here](security.ipynb)**.
+* **`ap23011_security.ipynb`**: This Jupyter Notebook contains all the Python code used to conduct the experiments for this project. The notebook is fully reproducible and includes code for encrypting, decrypting, signing, and verifying data. You can view the notebook directly on GitHub by clicking **[here](../Security/ap23011_security.ipynb)**.
 
 ## Project Overview & Key Findings
 
@@ -49,5 +49,6 @@ pip install cryptography
 ```
 
 [< Back to Portfolio Homepage](../README.md)
+
 
 
